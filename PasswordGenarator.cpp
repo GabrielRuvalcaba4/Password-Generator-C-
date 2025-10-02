@@ -18,8 +18,7 @@ int main()
   std::string password;
 
   //Const string contaning character pool
-  const std::string possible_characters =
-      "abcdefghijklmopqrstuvwxyz12345678901234567890!@#$%^&*?_-!@#$%^&*?_-ABCDEFGHIJKLMOPQRSTUVWXYZ";
+  const std::string possible_characters = "abcdefghijklmopqrstuvwxyz12345678901234567890!@#$%^&*?_-!@#$%^&*?_-ABCDEFGHIJKLMOPQRSTUVWXYZ";
 
   //print program header
   std::cout << "-------Welcome to the Random Password Generator--------\n" << std::endl;
